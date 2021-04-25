@@ -72,6 +72,7 @@ body
     background-color:#feed00 ;
     padding: 50px ;
     width: 100%;
+    height:100vh;
 }
 .sec-left .heading{
 
@@ -124,12 +125,12 @@ body
 
 }
 .white-box{
-    background-color: white;
+    background-color:#fafcfb;
     padding: 50px;
     margin: 50px;
     box-shadow: 0px 4px 16px -4px rgba(0,0,0,0.67);
     border-radius: 15px;
-    height: 110vh;
+    height: 105vh;
     
 }
 .home{
@@ -170,6 +171,24 @@ body
     font-family: 'D-DIN Condensed';
     font-weight: 700;
 }
+.text-heading{
+    font-family: 'D-DIN Condensed';
+    color: black;
+    margin: 20px 10px 20px 10px; 
+    font-weight: 600;
+    line-height: 0.95;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1;
+    padding: 10px;
+
+}
+.left{
+    text-align: justify;
+}
+.bottom{
+    margin-bottom: 0px;
+}
 .round-img{
     height:200px;
     width: 200px;
@@ -177,4 +196,13 @@ body
     box-shadow: 0px 4px 16px -4px rgba(0,0,0,0.50);
     margin-bottom: 80px;
     margin-top: 80px;
+}
+
+.brdr{
+    border-right: solid 1px black;
+}
+.display-text{
+
+    padding: 10px;
+
 }
