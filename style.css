@@ -66,10 +66,9 @@ body
 .main-content{
     margin-top:40px;
     width: auto;
-    overflow-x:hidden;
+    background-color:#feed00 ;
 }
 .sec-left{
-    background-color:#feed00 ;
     padding: 50px ;
     width: 100%;
     height:100vh;
