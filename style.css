@@ -206,3 +206,9 @@ body
     padding: 10px;
 
 }
+.btn{
+    padding: 10px 20px;
+    font-family: 'D-DIN Condensed';
+    font-size: 1rem;
+    font-weight: 600;
+}
