@@ -16,6 +16,6 @@ const handleChange = (e) => {
         box1.classList.add('d-none')
         box3.classList.add('d-none');
         box4.classList.remove('d-none');
-        box4.classList.add('d-flex');
+        box4.classList.toggleClass('d-flex');
     }
 }
