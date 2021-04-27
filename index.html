@@ -15,7 +15,7 @@
 
 </head>
 <body>
-   <nav>
+   <!-- <nav>
        <div class="site-header">
            <ul class="nav-brand">
                <p>Genestore<sup>&#174;</sup></p>
@@ -33,189 +33,241 @@
                <p>1800-1800-1800</p>
            </ul>
        </div>
-   </nav>
-   <section class="main-content p-2">
+   </nav> -->
+   <nav class="navbar navbar-expand-lg navbar-light fixed-top border-bottom border-dark" style="background-color: #FFF200; height: 100px;">
+    <div class="container-fluid">
+      <div>
+        <a class="navbar-brand fs-1 fw-bold" href="#">genestore®</a>
+        <img src="./assets/NicePng_india-flag-png_1633622.png" class="flag border-end border-dark">
+        <img src="./assets/france.svg" class="flag">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex fs-4 fw-bold">
+            CAll US TOLL FREE <br> 1800-1800-1800
+        </form>
+      </div>
+    </div>
+  </nav>
+   <section class="main-content mt-5 p-2">
     <div class="row">
         <!--Content Section-->
-        <div class="col-lg-6 col-md-12 col-sm-12 sec-left">
-            <div class="container">
-             <h2 class="heading">GENESTORE FRANCE</h2>
-             <h2 class="black-bg">NABL Accredited| ICMR Approved</h2>
-             <p class="small-head">
+        <div class="col-12 col-sm-6 sec-left">
+            <div class="p-4">
+             <h2 class="display-4 fw-bold">GENESTORE FRANCE</h2>
+             <h2 class="bg-dark text-white rounded-3 fs-2 d-flex align-items-center px-2" style="height: 100px;">NABL Accredited| ICMR Approved</h2>
+             <p class="fs-1 fw-bold">
                  Covid-19
              </p>
-             <h1 class="main-head">RT-PCR TEST</h1>
-             <p class="tagline">Fastest,Accurate And Affordable</p>
+             <h1 class="fw-bold display-1">RT-PCR TEST</h1>
+             <p class="display-4 fw-bold">Fastest,Accurate And Affordable</p>
             </div>
         </div>
         <!--Form Sections -->
-        <div class="col-lg-6 col-md-12 col-sm-12 sec-left form-sec">
+        <div class="col-12 col-sm-6 sec-left">
             <!-- container 1 -->
-            <div class="container box-1 white-box">
+            <div class="container box-1 bg-light rounded-3 py-5 my-5 shadow d-flex flex-column justify-content-evenly" style="height: 100vh;">
                 <p class="text-heading"> Where would you like to collect your sample?</p>
-                <div class="col-lg-6 col-sm-12 home">
-                    <img class="round-img" src="https://timesofindia.indiatimes.com/thumb/msid-79516347,imgsize-26651,width-400,resizemode-4/79516347.jpg">
-                     <button onclick="handleChange()" class="home-btn btn">Home</button>
-                </div>
-                <div class="col-lg-6 col-sm-12 kiosk">
-                    <img class="round-img" src="https://timesofindia.indiatimes.com/thumb/msid-79516347,imgsize-26651,width-400,resizemode-4/79516347.jpg">
-                    <h2 class="kiosk-btn">KIOSK</h2>
+                <div class="row">
+                    <div class="col-6 home">
+                        <img class=" rounded-circle shadow border-0 " style="height: 150px; width : 150px" src="https://timesofindia.indiatimes.com/thumb/msid-79516347,imgsize-26651,width-400,resizemode-4/79516347.jpg">
+                         <button onclick="handleChange(1)" class="home-btn my-5 py-2 px-4 fs-3">Home</button>
+                    </div>
+                    <div class="col-6 kiosk">
+                        <img class=" rounded-circle shadow border-0 "  style="height: 150px; width : 150px" src="https://timesofindia.indiatimes.com/thumb/msid-79516347,imgsize-26651,width-400,resizemode-4/79516347.jpg">
+                        <button onclick="" class="kiosk-btn my-5 py-2 fs-3">Kiosk</button>
+                    </div>
                 </div>
             </div>
             <!-- container 2 -->
-            <div class="container w-100 box-2 white-box d-none">
+            <div class="container w-100 box-2 bg-light rounded-3 py-4 my-5 shadow d-none">
                 <p class="text-heading"> Where would you like to collect your sample?</p>
-                <div class="col-lg-6 col-sm-12 home brdr">
-                     <h2 class="home-btn">Home</h2>
-                     <p class="text-heading left">
-                         A Sample Collection Executive assigned to you within 30 min 
-                     </p>
-                     <p  class="display-text">
-                         Our sample  collection executives are training using the Mayo Clinic(USA) Nasal Swab Collection
-                         Program and follow WHO sanitization and personal protection protocols.
-                     </p>
-                     <button onclick="handleChange()" class="btn btn-primary btn-lg btn-block">Book Now</button>
-                </div>
-                <div class="col-lg-6 col-sm-12 kiosk">
-                    <h2 class="kiosk-btn">KIOSK</h2>
-                    <p class="text-heading left bottom">
-                        Same day reporting is possible if sample is deposited at our kiosk before 12pm
-                    </p>
-                    <p class="display-text">
-                        Our sample  collection executives are training using the Mayo Clinic(USA) Nasal Swab Collection
-                        Program and follow WHO sanitization and personal protection protocols.
-                    </p>
-                    <button class="btn btn-primary btn-lg btn-block">Book Now</button>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 d-flex flex-column align-items-center border-end border-2 my-2">
+                        <h2 class="home-btn py-2 px-4">Home</h2>
+                        <p class="text-heading left">
+                            A Sample Collection Executive assigned to you within 30 min 
+                        </p>
+                        <p  class="display-text">
+                            Our sample  collection executives are training using the Mayo Clinic(USA) Nasal Swab Collection
+                            Program and follow WHO sanitization and personal protection protocols.
+                        </p>
+                        <button onclick="handleChange(2)" class="btn btn-primary btn-lg btn-block">Book Now</button>
+                   </div>
+                   <div class="col-lg-6 col-sm-12 d-flex flex-column align-items-center my-2">
+                       <h2 class="kiosk-btn py-2">KIOSK</h2>
+                       <p class="text-heading left bottom">
+                           Same day reporting is possible if sample is deposited at our kiosk before 12pm
+                       </p>
+                       <p class="display-text">
+                           Our sample  collection executives are training using the Mayo Clinic(USA) Nasal Swab Collection
+                           Program and follow WHO sanitization and personal protection protocols.
+                       </p>
+                       <button class="btn btn-primary btn-lg btn-block">Book Now</button>
+                   </div>
                 </div>
             </div>
             <!----CONTAINER 3 FOR FORMS-->
-            <div class="container white-box">
-                <div class="col-lg-12 h-auto col-sm-12 home ">
-                     <h2 class="home-btn lrg">Home collection</h2> 
-                     <form>
-                        <input type="text" class="text-block" placeholder="ENTER MOBILE NO.">
-                        <input type="text" class="text-block" placeholder="ADDRESS">
-                        <input type="text" class="text-block" placeholder="LANDMARK">
+            <div class="container bg-light box-3 rounded-3 shadow my-5 py-5 d-none">
+                <div class="h-auto d-flex flex-column align-items-center">
+                     <h2 class="home-btn w-auto py-2 px-4 mb-5">Home collection</h2> 
+                     <form class="w-100">
+                        <input type="text" class="text-block w-100" placeholder="ENTER MOBILE NO.">
+                        <input type="text" class="text-block w-100" placeholder="ADDRESS">
+                        <input type="text" class="text-block w-100" placeholder="LANDMARK">
                         <div class="row g-4">
-                            <div class="col select">
-                                <select class="drop" aria-label="Default select example">
+                            <div class="col-6 select">
+                                <select class="form-select form-select-lg mb-3 text-block aria-label="Default select example">
                                     <option selected>CITY</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
                                     <option value="3">Three</option>
-                                  </select>
+                                </select>
                             </div>
-                            <div class="col">
-                                <input type="text" class="text-inline" placeholder="PIN CODE">
+                            <div class="col-6">
+                                <input type="text" class="text-block w-100" placeholder="PIN CODE">
                             </div>
-                          </div>
-                          <div class="d-flex flex-row">
-                            <div class="label"> NO. OF PATIENTS</div>
-                            <div class="box p-3">1</div>
-                            <div class="box p-3">2</div>
-                            <div class="box p-3 no-color">3</div>
-                            <div class="box p-3 no-color">4</div>
-                            <div class="sample p-3 no-color">
-                                <select aria-label="Default select example">
-                                    <option border-0 selected>More</option>
-                                    <option value="1">5</option>
-                                    <option value="3">6</option>
-                                    <option value="2">7</option>
-                                    <option value="3">8</option>
-                                    <option value="3">9</option>
-                                  </select>
+                        </div>
+                        <!-- patient count -->
+                          <div class="row">
+                              <div class="col-12 col-sm-3">
+                                <div class="label w-100"> NO. OF PATIENTS</div>
+                              </div>
+                              <div class="col-12 col-sm-9">
+                                    <nav aria-label="..." class="w-100">
+                                        <ul class="pagination pagination-lg">
+                                            <li class="page-item active" aria-current="page">
+                                                <span class="page-link">1</span>
+                                            </li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                            <li class="page-item">
+                                                <select class="page-link h-100 w-100 text-center" aria-label="Default select example">
+                                                    <option value="1" selected>5</option>
+                                                    <option value="3">6</option>
+                                                    <option value="2">7</option>
+                                                    <option value="3">8</option>
+                                                    <option value="3">9</option>
+                                                </select>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
                             </div>
-
-                          </div>
+                            <!-- patient form collapse1 -->
                           <div class="mt-3 row">
                               <div class="toggle-customer">
-                                 <div class="d-flex flex-row justify-content-between">
+                                 <div class="d-flex align-items-center">
                                     <a class="m-3" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapseExample">
                                         <i class="fas fa-plus"></i>
                                     </a>
-                                    <label  class="col-sm-2 label mt-2 w-75 ">Patient No.1</label>
+                                    <label  class="label w-75">Patient No.1</label>
                                  </div>
-                                  <div class="col-sm-10 collapse" id="collapse1">
-                                    <input type="text" class="text-block d-block" id="inputPassword" placeholder="FULL NAME">
-                                    <div class="row">
-                                        <div class=" col-4 select ">
-                                            <select class="drop w-auto g-3" aria-label="Default select example">
-                                                <option selected>GENDER</option>
-                                                <option value="1">MALE</option>
-                                                <option value="2">FEMALE</option>
-                                                <option value="3">TRANSGENDER</option>
-                                              </select>
-                                        </div>
-                                        <div class="col-8 mb-3 d-flex flex-row w-70">
-                                            <label for="dateInput" class="label ">DATE OF BIRTH</label>
-                                            <input type="date" class="drop" id="dateInput" placeholder="Enter Your DOB">
-                                          </div>
-                                    </div>
-                                    <label for="formFileMultiple" class="form-label label d-inline">UPLOAD YOUR AADHAR PHOTO</label>
-                                    <input class="form-control form-control-lg mb-2 file-input" type="file" id="formFileMultiple" multiple>
-                                    <p class="text-heading">OR</p>
-                                    <input type="text" class="text-block" placeholder="AADHAR CARD NO.">
-  
-                                    
+                                  <div class="collapse" id="collapse1">
+                                      <div class=" d-flex flex-column align-items-center">
+                                            <input type="text" class="text-block d-block w-100" id="inputPassword" placeholder="FULL NAME">
+                                            <div class="row g-0 w-100 my-3">
+                                                <div class=" col-4 select">
+                                                    <select class="drop w-100 g-3" aria-label="Default select example">
+                                                        <option selected>GENDER</option>
+                                                        <option value="1">MALE</option>
+                                                        <option value="2">FEMALE</option>
+                                                        <option value="3">TRANSGENDER</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-8 mb-3 d-flex flex-row w-70">
+                                                    <label for="dateInput" class="label">DATE OF BIRTH</label>
+                                                    <input type="date" class="drop w-100" id="dateInput" placeholder="Enter Your DOB">
+                                                </div>
+                                            </div>
+                                            <label for="formFileMultiple" class="form-label label d-inline">UPLOAD YOUR AADHAR PHOTO</label>
+                                            <input class="form-control form-control-lg file-input" type="file" id="formFileMultiple" multiple>
+                                            <p class="text-heading">OR</p>
+                                            <input type="text" class="text-block w-100" placeholder="AADHAR CARD NO.">
+                                      </div>
                                   </div>
                               </div>
                           </div>
+
+                          <!-- patient form collapse2 -->
                           <div class="mt-3 row">
                             <div class="toggle-customer">
-                               <div class="d-flex flex-row justify-content-between">
+                               <div class="d-flex align-items-center">
                                   <a class="m-3" data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapseExample">
                                       <i class="fas fa-plus"></i>
                                   </a>
-                                  <label  class="col-sm-2 label mt-2 w-75 ">Patient No.2</label>
+                                  <label  class="label w-75">Patient No.2</label>
                                </div>
-                                <div class="col-sm-10 collapse" id="collapse2">
-                                  <input type="text" class="text-block d-block" id="inputPassword" placeholder="FULL NAME">
-                                  <div class="row">
-                                      <div class=" col-4 select ">
-                                          <select class="drop w-auto g-3" aria-label="Default select example">
-                                              <option selected>GENDER</option>
-                                              <option value="1">MALE</option>
-                                              <option value="2">FEMALE</option>
-                                              <option value="3">TRANSGENDER</option>
-                                            </select>
-                                      </div>
-                                      <div class="col-8 mb-3 d-flex flex-row w-70">
-                                          <label for="dateInput" class="label ">DATE OF BIRTH</label>
-                                          <input type="date" class="drop" id="dateInput" placeholder="Enter Your DOB">
-                                        </div>
-                                  </div>
-                                
-                                  <label for="formFileMultiple" class="form-label label d-inline">UPLOAD YOUR AADHAR PHOTO</label>
-                                  <input class="form-control form-control-lg mb-2 file-input" type="file" id="formFileMultiple" multiple>
-                                  <p class="text-heading">OR</p>
-                                  <input type="text" class="text-block" placeholder="AADHAR CARD NO.">
-
+                                <div class="collapse" id="collapse2">
+                                    <div class=" d-flex flex-column align-items-center">
+                                          <input type="text" class="text-block d-block w-100" id="inputPassword" placeholder="FULL NAME">
+                                          <div class="row g-0 w-100 my-3">
+                                              <div class=" col-4 select">
+                                                  <select class="drop w-100 g-3" aria-label="Default select example">
+                                                      <option selected>GENDER</option>
+                                                      <option value="1">MALE</option>
+                                                      <option value="2">FEMALE</option>
+                                                      <option value="3">TRANSGENDER</option>
+                                                  </select>
+                                              </div>
+                                              <div class="col-8 mb-3 d-flex flex-row w-70">
+                                                  <label for="dateInput" class="label">DATE OF BIRTH</label>
+                                                  <input type="date" class="drop w-100" id="dateInput" placeholder="Enter Your DOB">
+                                              </div>
+                                          </div>
+                                          <label for="formFileMultiple" class="form-label label d-inline">UPLOAD YOUR AADHAR PHOTO</label>
+                                          <input class="form-control form-control-lg file-input" type="file" id="formFileMultiple" multiple>
+                                          <p class="text-heading">OR</p>
+                                          <input type="text" class="text-block w-100" placeholder="AADHAR CARD NO.">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                          
+                        <!-- pateint tab end here -->
+                        <div class="container">
+                            <p class="fs-3">Type Of Collection Selected : <span class="text-danger">Home</span></p>
+                            <p class="fs-3">No. Of Samples : <span class="text-danger">2</span></p>
+                            <p class="fs-3 text-secondary">Total Amount (All Inculsive) : <span>1000/-</span></p>
+                        </div>
+                        <div class="container d-flex justify-content-center mt-2">
+                            <button onclick="handleChange(3)" class="home-btn fs-3 py-2 px-4">Proceed To Pay</button>
+                        </div>
                      </form>
                 </div>
             </div>
             <!--Container 3 Ends here-->
             <!--Container 4 Starts here-->
-            <div class="container w-100 box-2 white-box ">
-               <div class="col-12 home">
-                <h2 class="home-btn lrg">Home collection</h2> 
+            <div class="container box-4 bg-light rounded-3 shadow mt-5 py-5 d-none">
+               <div class="align-items-center d-flex flex-column">
+                <h2 class="home-btn py-2 px-4">Home collection</h2> 
                 <p class="text-heading"> THANKS FOR SELECTING GENESTORE<SUP>&#174;</SUP></p>
-                <p class="tagline">
+                <p class="display-3 fw-bold">
                     YOUR REGISTRATION ID <br>
                     <span>XXXX-XXXX-XXXX</span>
                 </p>
-                 <div class="container ml-3 w-75 final-text">
+                 <div class=" w-100 fs-5">
                      <p>Share this registration id with the sample collection executive to initiate your sample collection</p>
                  </div>
-                 <p class="text-heading d-flex align-items-lg-start"> A Sample Collection Executive will be assigned to you within 30 minutes</p>
+                 <p class="fs-5 fw-bold"> A Sample Collection Executive will be assigned to you within 30 minutes</p>
                  <button class="btn btn-primary btn-lg btn-block">TRACE ORDER</button>
                </div> 
-             
-                                       
-               
             </div>
             <!--container 4 Ends Here-->
 
