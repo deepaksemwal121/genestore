@@ -10,6 +10,10 @@ body
     font-family: 'D-DIN Condensed';
     font-size: 1.3rem;
     font-weight: 600;
+    padding:5px;
+}
+.nav-item:hover{
+    border-bottom: 2px solid black;
 }
 .navbar{
     background-color: #FFF200;
@@ -31,13 +35,14 @@ body
 
 
 
-.call p{
+.call{
 
     font-family: 'D-DIN Condensed';
     font-size: 2rem;
     font-weight: bold;
     line-height:1 ;
-    margin-top:5px
+    margin-top:5px;
+    color:black;
 }
 .main-content{
     background-color:#feed00 ;
@@ -257,8 +262,3 @@ form .text-block{
     box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.3);
 
 }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-  
-  }
