@@ -1,10 +1,8 @@
 @import url(./font/stylesheet.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-body
-{
-    width: 100%;
-    overflow-x: hidden;
-    font-weight: bold;
+*{
+    overflow-x:hidden;
+    box-sizing:border-box;
 }
 .nav-item{
     font-family: 'D-DIN Condensed';
@@ -41,7 +39,6 @@ body
     font-family: 'D-DIN Condensed';
     font-size: 2rem;
     font-weight: bold;
-    line-height:1 ;
     margin-top:5px;
     color:black;
 }
