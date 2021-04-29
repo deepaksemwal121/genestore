@@ -265,3 +265,7 @@ form .text-block{
     font-size:18px;
     font-weight: 500;
 }
+.test {
+    background-image: url("./assets/bg1.png");
+    position: relative;
+  }
