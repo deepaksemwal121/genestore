@@ -269,3 +269,16 @@ form .text-block{
     background-image: url("./assets/bg1.png");
     position: relative;
   }
+
+  footer ul {
+    padding-left: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #fff200;
+}
