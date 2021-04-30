@@ -19,3 +19,4 @@ const handleChange = (e) => {
         box4.classList.toggleClass('d-flex');
     }
 }
+

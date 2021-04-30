@@ -23,10 +23,10 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg h-auto navbar-light fixed-top">
-        <div class="container-fluid " style="background-color: #fff200;">
+    <nav class="navbar navbar-expand-lg w-100 h-auto navbar-light fixed-top">
+        <div class="container-fluid" style="background-color: #fff200;">
             <div>
-                <a class="navbar-brand fs-1 fw-bold" href="#">genestore<sup>&#174;</sup></a>
+                <a class="navbar-brand fs-2 fw-bold" href="#">genestore<span class="fs-4"><sup>&#174;</sup></span></a>
                 <img src="./assets/NicePng_india-flag-png_1633622.png" class="flag border-end border-dark">
                 <img src="./assets/france.svg" class="flag">
             </div>
@@ -36,7 +36,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse flex-grow-0" style="background-color:#fff200;" id="collapsibleNavbar">
-                <ul class="navbar-nav mb-2 mb-lg-0  fw-bold">
+                <ul class="navbar-nav mb-2 mb-lg-0 me-4 border-end border-dark fw-bold">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -47,12 +47,18 @@
                         <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SARS Covid 2</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
-                <form class="d-flex lh-small  fw-bold call ">
+                <div class="d-flex lh-small  fw-bold call ">
                     <p> CAll US TOLL FREE <br> 1800-1800-1800</p>
-                </form>
+                </div>
             </div>
         </div>
     </nav>
@@ -179,7 +185,7 @@
                                         </a>
                                         <label class="label w-75">Patient No.1</label>
                                     </div>
-                                    <div class="collapse" id="collapse1">
+                                    <div class="collapse show" id="collapse1">
                                         <div class=" d-flex flex-column align-items-center">
                                             <input type="text" class="text-block d-block w-100" id="inputPassword"
                                                 placeholder="FULL NAME">
@@ -478,7 +484,10 @@
     <!--FAQ Section starts here-->
     <section>
         <div class="row mb-4">
-            <p class="text-center fw-bold display-4 text-heading py-3">FAQ</p>
+            <div class="container">
+                <p class="text-center fw-bold display-4 text-heading py-3">FAQ</p>
+            </div>
+           
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header " id="headingOne">

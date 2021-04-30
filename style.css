@@ -1,6 +1,5 @@
 @import url(./font/stylesheet.css);
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
-@import url(./style.scss);
 
 
 body{
@@ -43,6 +42,7 @@ body{
 }
 .main-content {
   background-color: #feed00;
+  margin: 0;
 }
 .sec-left {
   padding: 68px;
@@ -131,7 +131,6 @@ body{
 .text-heading {
   font-family: "D-DIN Condensed";
   color: black;
-  margin: 20px 10px 20px 10px;
   font-weight: 600;
   line-height: 0.95;
   font-size: 2rem;
@@ -301,11 +300,13 @@ footer a {
 }
 
 footer a:hover {
-    color: #fff200;
+    color: #727050;
 }
 
 @media (orientation: portrait) { 
-    body{
+    *:not(.select){
         overflow-x:hidden ;
-    }
+    
  }
+
+}
