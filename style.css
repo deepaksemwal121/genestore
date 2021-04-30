@@ -271,3 +271,9 @@ form .text-block {
   color:#D1D1D1;
 }
 
+.test{
+    background-image: url(./assets/bg1.png);
+    position: relative;
+}
+
+
