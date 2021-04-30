@@ -21,6 +21,10 @@ body{
   border-bottom: solid 2px #cfc530;
 }
 
+nav ul{
+    border-right: solid 2px #333;
+}
+
 .flag {
   height: 50px;
   width: 50px;
@@ -308,5 +312,8 @@ footer a:hover {
         overflow-x:hidden ;
     
  }
+  nav ul{
+      border :none;
+  }
 
 }
