@@ -107,14 +107,22 @@ nav ul{
   align-items: center;
 }
 .home-btn {
-  background-color: #feed00;
+  background-color: #0d6efd;
   box-shadow: 0px 4px 16px -4px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   text-transform: uppercase;
   text-align: center;
+  width:75%;
+  color: #ffffff;
   font-family: "D-DIN Condensed";
-  font-weight: 700;
+  font-weight: 500;
   border: 0;
+}
+.box-1, .box-2, .box-3, .box-4{
+
+  border-radius: 15px;
+  box-shadow: 0px 4px 16px -4px rgba(0, 0, 0, 0.5);
+  width: 75%;
 }
 .kiosk {
   justify-content: center;
@@ -122,17 +130,6 @@ nav ul{
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.kiosk-btn {
-  background-color: #feed00;
-  box-shadow: 0px 4px 16px -4px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-  text-transform: uppercase;
-  text-align: center;
-  width: 50%;
-  font-family: "D-DIN Condensed";
-  font-weight: 700;
-  border: 0;
 }
 .text-heading {
   font-family: "D-DIN Condensed";
@@ -311,10 +308,8 @@ footer a:hover {
 #w-75{
   max-width: 75%;
 }
-
- button:hover{
-
-  background-color: black;
+.home-btn:hover{
+  background-color:black;
   color: white;
 }
 

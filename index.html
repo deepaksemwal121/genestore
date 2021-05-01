@@ -24,7 +24,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg w-100 h-auto navbar-light fixed-top">
-        <div class="container-fluid justify-content-evenly" style="background-color: #fff200;">
+        <div class="container-fluid" style="background-color: #fff200;">
             <div>
                 <a class="navbar-brand fs-2 fw-bold" href="#">genestore<span class="fs-4"><sup>&#174;</sup></span></a>
                 <img src="./assets/NicePng_india-flag-png_1633622.png" class="flag border-end border-dark">
@@ -37,22 +37,22 @@
             </button>
             <div class="collapse navbar-collapse flex-grow-0 " style="background-color:#fff200;" id="collapsibleNavbar">
                 <ul class="navbar-nav mb-2 mb-lg-0 me-4 fw-bold">
-                    <li class="nav-item">
+                    <li class="nav-item mx-2">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-2">
                         <a class="nav-link" href="#">Service</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-2">
                         <a class="nav-link" href="#">About</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-2">
                         <a class="nav-link" href="#">Team</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-2">
                         <a class="nav-link" href="#">SARS Covid 2</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-2">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
@@ -66,7 +66,7 @@
         <div class="row">
             <!--Content Section-->
             <div class="col-12 col-sm-6 sec-left">
-                    <div class="p-4 mx-3">
+                    <div class="p-4 mx-3 mt-5">
                         <h2 class="display-4 fw-bold  text">GENESTORE FRANCE</h2>
                         <p class="black-bg  d-flex  ">NABL Accredited| ICMR Approved</p>
                         <p class="fs-2 fw-bold  mt-5  text" style="line-height: 0.7;">
@@ -80,27 +80,29 @@
             <!--Form Sections -->
             <div class="col-12 col-sm-6 sec-left">
                 <!-- container 1 -->
-                <div class="container box-1 bg-light rounded-3 py-3 my-5 shadow d-flex flex-column justify-content-evenly">
+                <div class="container box-1 bg-light py-3 my-5 d-flex flex-column" id="w-75">
                     <p class="text-heading"> Where would you like to collect your sample?</p>
                     <div class="row">
                         <div class="col-6 home">
+                            <h2 class="text py-2 px-4">HOME</h2>
                             <img class=" rounded-circle shadow border-0 " style="height: 150px; width : 150px"
                                 src="https://timesofindia.indiatimes.com/thumb/msid-79516347,imgsize-26651,width-400,resizemode-4/79516347.jpg">
-                            <button onclick="handleChange(1)" class="home-btn my-5 py-2 px-4 fs-3">Home</button>
+                            <button onclick="handleChange(1)" class="home-btn my-5 py-2 px-4 fs-3" id="btn">Home</button>
                         </div>
                         <div class="col-6 kiosk">
+                            <h2 class="text py-2 px-4">KIOSK</h2>
                             <img class=" rounded-circle shadow border-0 " style="height: 150px; width : 150px"
                                 src="https://timesofindia.indiatimes.com/thumb/msid-79516347,imgsize-26651,width-400,resizemode-4/79516347.jpg">
-                            <button onclick="" class="kiosk-btn my-5 py-2 fs-3">Kiosk</button>
+                            <button onclick="" class="home-btn my-5 py-2 fs-3" >Kiosk</button>
                         </div>
                     </div>
                 </div>
                 <!-- container 2 -->
-                <div class="container w-100 box-2 bg-light rounded-3 py-4 my-5 shadow d-none">
+                <div class="container w-100 box-2 bg-light  py-4 my-5 d-none">
                     <p class="text-heading"> Where would you like to collect your sample?</p>
                     <div class="row">
                         <div class="col-lg-6 col-sm-12 d-flex flex-column align-items-center border-end border-2 my-2">
-                            <h2 class="home-btn py-2 px-4">Home</h2>
+                            <h2 class="text py-2 px-4">Home</h2>
                             <p class="text-heading left">
                                 A Sample Collection Executive assigned to you within 30 min
                             </p>
@@ -112,7 +114,7 @@
                             <button onclick="handleChange(2)" class="btn btn-primary btn-lg btn-block">Book Now</button>
                         </div>
                         <div class="col-lg-6 col-sm-12 d-flex flex-column align-items-center my-2">
-                            <h2 class="kiosk-btn py-2">KIOSK</h2>
+                            <h2 class="text py-2">KIOSK</h2>
                             <p class="text-heading left bottom">
                                 Same day reporting is possible if sample is deposited at our kiosk before 12pm
                             </p>
@@ -126,7 +128,7 @@
                     </div>
                 </div>
                 <!----CONTAINER 3 FOR FORMS-->
-                <div class=" box-3 container bg-light  rounded-3  shadow my-5 py-5 d-none" id="w-75">
+                <div class=" box-3 container bg-light   shadow my-5 py-5 d-none" id="w-75">
                     <div class="h-auto d-flex flex-column align-items-center">
                         <h2 class="home-btn w-auto py-2 px-4 mb-5">Home collection</h2>
                         <form class="w-100" action="#" onsubmit="return false;">
@@ -269,11 +271,11 @@
                 </div>
                 <!--Container 3 Ends here-->
                 <!--Container 4 Starts here-->
-                <div class="container box-4 bg-light rounded-3 shadow mt-5 py-5 d-none">
+                <div class="container box-4 bg-light mt-5 py-5 d-none" id="w-75">
                     <div class="align-items-center d-flex flex-column">
                         <h2 class="home-btn py-2 px-4">Home collection</h2>
                         <p class="text-heading"> THANKS FOR SELECTING GENESTORE<SUP>&#174;</SUP></p>
-                        <p class="display-3 fw-bold text-heading">
+                        <p class="display-4 fw-bold text-heading">
                             YOUR REGISTRATION ID <br>
                             <span>XXXX-XXXX-XXXX</span>
                         </p>
@@ -325,30 +327,30 @@
     <section style="background-color: #fff200; overflow-x: hidden;">
         <div class="container mt-5">
             <div class="row ">
-                <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm-8">
                     <p class="text fs-1 fw-bold py-2">
                         WHY GENESTORE FRANCE
                     </p>
-                    <p class="para">
+                    <p class="para pe-4">
                         A posuere scelerisque gravida facilisi parturient magna urna donec parturient per augue a amet
                         quam nullam a ad a. Parturient velit imperdiet in suspendisse eget a parturient adipiscing
                         penatibus convallis himenaeos felis torquent facilisi elementum a penatibus suscipit aliquam.
                     </p>
-                    <p class="para">
+                    <p class="para pe-4">
                         Porta at at suspendisse dolor fames ullamcorper cum id per suspendisse a dignissim eu dapibus
                         platea turpis augue mi proin lorem morbi sapien facilisis lectus.
                     </p>
                     <button class="btn btn-outline-dark btn-lg  para">FIND MORE</button>
                 </div>
-                <div class="col-12 col-sm-6">
-                    <div class="row g-3 p-3">
-                        <div class="col-6 d-flex flex-column text-center p-3 g-2">
+                <div class="col-12 col-sm-4">
+                    <div class="row  p-3">
+                        <div class="col-6 d-flex flex-column text-center ">
                             <img class=" rounded-circle shadow border-0 m-3 " style="height: 125px; width : 125px"
                                 src="https://timesofindia.indiatimes.com/thumb/msid-79516347,imgsize-26651,width-400,resizemode-4/79516347.jpg">
                             <img class=" rounded-circle shadow border-0 m-3" style="height: 125px; width : 125px"
                                 src="https://timesofindia.indiatimes.com/thumb/msid-79516347,imgsize-26651,width-400,resizemode-4/79516347.jpg">
                         </div>
-                        <div class="col-6 d-flex flex-column text-center p-3 g-2">
+                        <div class="col-6 d-flex flex-column text-center ">
                             <img class=" rounded-circle shadow border-0 m-3 " style="height: 125px; width : 125px"
                                 src="https://timesofindia.indiatimes.com/thumb/msid-79516347,imgsize-26651,width-400,resizemode-4/79516347.jpg">
                             <img class=" rounded-circle shadow border-0 m-3 " style="height: 125px; width : 125px"
@@ -358,20 +360,20 @@
                     </div>
                 </div>
             </div>
-            <div class="row my-5">
+            <div class="row my-5 mx-0">
                 <div class="col-12 col-sm-8">
-                    <img class="img-fluid" src="./assets/lab-full-suit.jpg">
+                    <img class="img-fluid mt-4" src="./assets/lab-full-suit.jpg">
                 </div>
-                <div class="col-12 col-sm-4 order-lg-2">
+                <div class="col-12 col-sm-4 ">
                     <p class="text fs-1 fw-bold py-2">
                         OUR TEAM OF EXPERTISE
                     </p>
-                    <p class="para">
+                    <p class="para ">
                         A posuere scelerisque gravida facilisi parturient magna urna donec parturient per augue a amet
                         quam nullam a ad a. Parturient velit imperdiet in suspendisse eget a parturient adipiscing
                         penatibus convallis himenaeos felis torquent facilisi elementum a penatibus suscipit aliquam.
                     </p>
-                    <p class="para">
+                    <p class="para ">
                         Porta at at suspendisse dolor fames ullamcorper cum id per suspendisse a dignissim eu dapibus
                         platea turpis augue mi proin lorem morbi sapien facilisis lectus.
                     </p>
@@ -386,7 +388,9 @@
         <div class="container-fluid ">
             <p class="text-center fw-bold display-4 text-heading py-5">BIO SAFETY LEVEL 6 LAB</p>
             <div class="row">
-                <img class="img-fluid p-0" src="./assets/s1.jpg" style="object-fit:contain;;">
+                <iframe id="ytplayer" type="text/html" width="640" height="360"
+                src="https://www.youtube.com/embed/xflsIhppCRI?autoplay=0"
+                frameborder="0"></iframe>
             </div>
         </div>
     </section>
@@ -602,7 +606,7 @@
                              </div>
                          </li>
                          <li>
-                             <button class="home-btn fs-4 py-1 px-4">Subscribe</button>
+                             <button class="home-btn fs-4 py-1 px-4" style="background-color: #fff200; color: black;">Subscribe</button>
                          </li>
                      </ul>
                  </div>
@@ -628,6 +632,7 @@
              </div>
          </div>
      </div>
+
 
 </body>
 
