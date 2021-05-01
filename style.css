@@ -39,7 +39,7 @@ nav ul{
 
 .call {
   font-family: "D-DIN Condensed";
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-top: 5px;
   color: black;
@@ -62,9 +62,11 @@ nav ul{
   background-color: black;
   color: white;
   font-family: "D-DIN Condensed";
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   border-radius: 15px;
+  padding: 15px;
+  width: fit-content;
   box-shadow: 0px 4px 16px -4px rgba(0, 0, 0, 0.67);
 }
 .sec-left .small-head {
@@ -306,6 +308,15 @@ footer a {
 footer a:hover {
     color: #727050;
 }
+#w-75{
+  max-width: 75%;
+}
+
+ button:hover{
+
+  background-color: black;
+  color: white;
+}
 
 @media (orientation: portrait) { 
     *:not(.select){
@@ -314,6 +325,9 @@ footer a:hover {
  }
   nav ul{
       border :none;
+  }
+  #w-75{
+    max-width: 100%;
   }
 
 }
